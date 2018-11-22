@@ -1,0 +1,13 @@
+\newcommand*{\info}[4][25]{%
+	\node [ annotation, #3, scale=.5, text width = #1cm,
+	inner sep = 4mm ] at (#2) {%
+		\list{$\bullet$}{\topsep=0pt\itemsep=0pt\parsep=0pt
+			\parskip=2pt\labelwidth=6pt\leftmargin=6pt
+			\itemindent=0pt\labelsep=2pt}%
+		#4
+		\endlist
+	};
+}
+\chapter{Resultados e Discussão}
+\label{ch:resultados}
+\lipsum[1-12]
